@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Get in Touch</h2>
+        <section>
+          <h3>Email Us</h3>
+          <p>You can reach us at: <a href="mailto:contact@techcon2024.com">contact@techcon2024.com</a></p>
+        </section>
+        <section>
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="https://twitter.com/techcon" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com/techcon" target="_blank">Facebook</a></li>
+            <li><a href="https://linkedin.com/company/techcon" target="_blank">LinkedIn</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Our Location</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086795120317!2d144.96305831548994!3d-37.816279679751315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d9fbd8066ed8!2sTechCon%20Conference%20Center!5e0!3m2!1sen!2sus!4v1619475873147!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </section>
+        <section>
+          <h3>Contact Us</h3>
+          <form action="submit_contact.html" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+      </footer>
+</body>
+</html>
